@@ -1,6 +1,6 @@
 {
-  "lastCheckedAt": "2026-10-12T17:42:10.782Z",
-  "total": 307,
+  "lastCheckedAt": "2026-10-12T17:53:18.953Z",
+  "total": 357,
   "checks": [
     {
       "source": "AQR",
@@ -36,7 +36,13 @@
       "source": "IBK투자증권",
       "status": "ok",
       "found": 60,
-      "added": 60
+      "added": 0
+    },
+    {
+      "source": "유안타증권",
+      "status": "ok",
+      "found": 50,
+      "added": 50
     },
     {
       "source": "Goldman Sachs",
@@ -77,13 +83,13 @@
     {
       "source": "Man Group",
       "status": "ok",
-      "found": 17,
-      "added": 16
+      "found": 1,
+      "added": 0
     },
     {
       "source": "Dimensional",
       "status": "ok",
-      "found": 6,
+      "found": 39,
       "added": 0
     },
     {
