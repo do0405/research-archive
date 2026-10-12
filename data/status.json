@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-10-12T17:53:18.953Z",
+  "lastCheckedAt": "2026-10-12T18:05:55.419Z",
   "total": 357,
   "checks": [
     {
@@ -42,7 +42,7 @@
       "source": "유안타증권",
       "status": "ok",
       "found": 50,
-      "added": 50
+      "added": 0
     },
     {
       "source": "Goldman Sachs",

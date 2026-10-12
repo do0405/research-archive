@@ -52,32 +52,6 @@
     "id": "gh-07f1a94b8c002a1f35c1169a"
   },
   {
-    "title": "3Q Pre: 예고된 실적 부진, 시선은 수주로 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-12",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207764&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/12",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-be5a5881b828e6d6837e7576"
-  },
-  {
-    "title": "3Q26 Pre: 실적보다 환율이 향후의 리스크 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-12",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207761&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/12",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-820aed43a917cc98db5680de"
-  },
-  {
     "title": "Bracing for Busy Week: Bank Earnings, CPI Ahead",
     "source": "Charles Schwab",
     "region": "미국",
@@ -91,13 +65,13 @@
     "id": "gh-7c04a009701c006aa28c8c4f"
   },
   {
-    "title": "Goltens 인수: 본업 확장, 북미 DC O&M 시동 <!--",
+    "title": "HD현대마린솔루션: Goltens 인수: 본업 확장, 북미 DC O&M 시동",
     "source": "유안타증권",
     "region": "한국",
     "category": "리서치",
     "publishedAt": "2026-10-12",
     "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207762&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/12",
+    "teaser": "",
     "author": "",
     "ticker": "",
     "topic": "투자전략",
@@ -128,6 +102,19 @@
     "ticker": "",
     "topic": "",
     "id": "gh-902d02b52c47c3076c7d5adf"
+  },
+  {
+    "title": "LIG디펜스앤에어로스페이스: 3Q Pre: 예고된 실적 부진, 시선은 수주로",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-12",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207764&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-be5a5881b828e6d6837e7576"
   },
   {
     "title": "Misconceptions about Tax-Aware Long-Short: Misleading Parallels with Direct Indexing, Part III",
@@ -338,6 +325,19 @@
     "id": "gh-c92b8289d60c93fbd5a2de7f"
   },
   {
+    "title": "현대차: 3Q26 Pre: 실적보다 환율이 향후의 리스크",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-12",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207761&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-820aed43a917cc98db5680de"
+  },
+  {
     "title": "Do Elections Matter to the Stock Market? | Dimensional",
     "source": "Dimensional",
     "region": "퀀트",
@@ -468,97 +468,6 @@
     "id": "gh-a3d680d0470ce22c84e42352"
   },
   {
-    "title": "3Q Pre: 컨센 소폭 하회하나, YoY 성장은 견고 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207735&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-a425bd14b40d4bb76fdf3747"
-  },
-  {
-    "title": "3Q26 Pre: 공시가 증명하는 성장 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207729&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-a9fa469f11eb9d0bbf0463d5"
-  },
-  {
-    "title": "3Q26 Pre: 릴을 넘어 패널로 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207730&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-b2dceb6b4b279e35b7d3a30a"
-  },
-  {
-    "title": "3Q26 Pre: 오늘은 믹스, 내일은 캐파 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207731&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-d12f20f0ae14b24f4e95deef"
-  },
-  {
-    "title": "3Q26 Pre: 작은 모듈, 큰 레버리지 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207733&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-ab9588d9e23d95eacf955f7d"
-  },
-  {
-    "title": "3Q26 Pre: 적층되는 성장 동력 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207732&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-20843e23848b7a53edcd62a8"
-  },
-  {
-    "title": "3Q26 Preview: 컨센서스 부합 전망 <!--",
-    "source": "유안타증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207737&cd006=&cd007=RE01&cd008=",
-    "teaser": "2026/10/08",
-    "author": "",
-    "ticker": "",
-    "topic": "투자전략",
-    "id": "gh-093ed2b0aa62e0a2cd7f1a77"
-  },
-  {
     "id": "gs-bonds-20261008",
     "title": "Are Bonds Becoming a Better Investment for Portfolios?",
     "source": "Goldman Sachs",
@@ -650,6 +559,19 @@
     "id": "gh-a23bd673ae2957139420aa2d"
   },
   {
+    "title": "대덕전자: 3Q26 Pre: 오늘은 믹스, 내일은 캐파",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207731&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-d12f20f0ae14b24f4e95deef"
+  },
+  {
     "title": "디지털 자산Daily",
     "source": "유안타증권",
     "region": "한국",
@@ -661,6 +583,19 @@
     "ticker": "",
     "topic": "투자전략",
     "id": "gh-d9b5ad2f80a9b9f2f726dbbd"
+  },
+  {
+    "title": "삼성전기: 3Q26 Pre: 공시가 증명하는 성장",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207729&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-a9fa469f11eb9d0bbf0463d5"
   },
   {
     "title": "외국인 카지노 3사 9월 Monthly",
@@ -702,6 +637,45 @@
     "id": "gh-d5d9e7fea60e54108be1b9e2"
   },
   {
+    "title": "이수페타시스: 3Q26 Pre: 적층되는 성장 동력",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207732&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-20843e23848b7a53edcd62a8"
+  },
+  {
+    "title": "티엘비: 3Q26 Pre: 작은 모듈, 큰 레버리지",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207733&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-ab9588d9e23d95eacf955f7d"
+  },
+  {
+    "title": "하이브: 3Q26 Preview: 컨센서스 부합 전망",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207737&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-093ed2b0aa62e0a2cd7f1a77"
+  },
+  {
     "title": "한국 마켓 클로징(10월 8일) — 유가·금리 부담 확대",
     "source": "미래에셋증권",
     "region": "한국",
@@ -715,6 +689,19 @@
     "id": "gh-de80baefbc0ceb959b45205b"
   },
   {
+    "title": "한국항공우주: 3Q Pre: 컨센 소폭 하회하나, YoY 성장은 견고",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207735&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-a425bd14b40d4bb76fdf3747"
+  },
+  {
     "title": "항공업 (비중확대/유지) — 원화 강세와 통합 가시화: 비중확대 유지",
     "source": "미래에셋증권",
     "region": "한국",
@@ -726,6 +713,19 @@
     "ticker": "",
     "topic": "",
     "id": "gh-fdd260fc6574fabd44536727"
+  },
+  {
+    "title": "해성디에스: 3Q26 Pre: 릴을 넘어 패널로",
+    "source": "유안타증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?SEQ=207730&cd006=&cd007=RE01&cd008=",
+    "teaser": "",
+    "author": "",
+    "ticker": "",
+    "topic": "투자전략",
+    "id": "gh-b2dceb6b4b279e35b7d3a30a"
   },
   {
     "title": "(임은영) 테슬라: 3Q26 Preview: 벌여 놓은 일은 많은데",
