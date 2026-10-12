@@ -1,6 +1,6 @@
 {
-  "lastCheckedAt": "2026-10-12T16:53:29.986Z",
-  "total": 40,
+  "lastCheckedAt": "2026-10-12T17:26:59.996Z",
+  "total": 230,
   "checks": [
     {
       "source": "AQR",
@@ -21,6 +21,18 @@
       "added": 0
     },
     {
+      "source": "삼성증권",
+      "status": "ok",
+      "found": 84,
+      "added": 84
+    },
+    {
+      "source": "한국투자증권",
+      "status": "ok",
+      "found": 4,
+      "added": 4
+    },
+    {
       "source": "Goldman Sachs",
       "status": "ok",
       "found": 3,
@@ -30,7 +42,49 @@
       "source": "J.P. Morgan",
       "status": "ok",
       "found": 1,
+      "added": 0
+    },
+    {
+      "source": "Morgan Stanley",
+      "status": "ok",
+      "found": 18,
+      "added": 18
+    },
+    {
+      "source": "Charles Schwab",
+      "status": "ok",
+      "found": 10,
+      "added": 10
+    },
+    {
+      "source": "Fidelity",
+      "status": "ok",
+      "found": 21,
+      "added": 21
+    },
+    {
+      "source": "Robeco",
+      "status": "ok",
+      "found": 11,
+      "added": 11
+    },
+    {
+      "source": "Man Group",
+      "status": "ok",
+      "found": 1,
       "added": 1
+    },
+    {
+      "source": "Dimensional",
+      "status": "ok",
+      "found": 39,
+      "added": 39
+    },
+    {
+      "source": "Two Sigma",
+      "status": "ok",
+      "found": 2,
+      "added": 2
     }
   ]
 }
