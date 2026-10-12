@@ -13,6 +13,32 @@
     "id": "gh-88af6a54b4c3d9270bb10038"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(261012)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-12",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12217",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-638547bd38b8a684af2ba66d"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-12",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12215",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-1eed92baa06c8ae4fde9ad87"
+  },
+  {
     "title": "Bracing for Busy Week: Bank Earnings, CPI Ahead",
     "source": "Charles Schwab",
     "region": "미국",
@@ -260,6 +286,19 @@
     "id": "gh-9949b67f338c9e478525be32"
   },
   {
+    "title": "Under Pressure | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-10-09",
+    "url": "https://www.man.com/insights/the-early-view-september-2026",
+    "teaser": "Hedge fund strategies might need to brace for more volatility for the rest of the year.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-3159f0ed820259fee36408a6"
+  },
+  {
     "title": "Weekly Trader&#x27;s Outlook",
     "source": "Charles Schwab",
     "region": "미국",
@@ -310,6 +349,45 @@
     "ticker": "",
     "topic": "",
     "id": "gh-2d03858a180110068a0d5af2"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(261008)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12209",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-4942fe6acdc0c888ad9c61f1"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12211",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-b0e665b1d1b124c4a1f2f0e9"
+  },
+  {
+    "title": "[IBKS 반도체 In-Depth] 올 가을 단풍은 이천이 평택보다 더 곱다",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12213",
+    "teaser": "",
+    "author": "김운호",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-4339653df66685e4613391d8"
   },
   {
     "id": "gs-bonds-20261008",
@@ -377,6 +455,19 @@
     "id": "gh-d7c37644183f38759c168732"
   },
   {
+    "title": "The Law of the Medes and Persians | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-10-08",
+    "url": "https://www.man.com/insights/road-ahead-law-medes-persians",
+    "teaser": "Re-investigating three of investment's long-held rules.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-a23bd673ae2957139420aa2d"
+  },
+  {
     "title": "한국 마켓 클로징(10월 8일) — 유가·금리 부담 확대",
     "source": "미래에셋증권",
     "region": "한국",
@@ -429,6 +520,32 @@
     "topic": "글로벌 자산전략"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(261007)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-07",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12207",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-4a01a359eb79b61cc1a3c841"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-07",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12205",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-3238b00bef9e35c7423d3470"
+  },
+  {
     "title": "How to invest in resource scarcity, AI and industrial innovation | Robeco Global",
     "source": "Robeco",
     "region": "퀀트",
@@ -442,6 +559,19 @@
     "id": "gh-89408404a10f40ad91e5bdc3"
   },
   {
+    "title": "Significantly Misunderstood: Why SRT is Not Capital Relief | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-10-07",
+    "url": "https://www.man.com/insights/significantly-misunderstood-capital",
+    "teaser": "In the first of a series, we aim to dispel the misconception that significant risk transfers (SRT) reduce the amount of regulatory capital a bank must hold.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-0e16f30a41a4454c3002b8a7"
+  },
+  {
     "title": "Tax-Saving Moves You Can Make Before Year-End",
     "source": "Charles Schwab",
     "region": "미국",
@@ -453,6 +583,45 @@
     "ticker": "",
     "topic": "",
     "id": "gh-8306d303914a9c69b3ab241b"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(261006)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-06",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12201",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-a4d21e1bbc1cd7e1e682984d"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-06",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12199",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-c5f759b718b967b13e51efe3"
+  },
+  {
+    "title": "[자동차/2차전지] 유럽에서 다시 붙는다: IAA가 바꾸는 한·중 배...",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-06",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12203",
+    "teaser": "",
+    "author": "이현욱",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-ae082e623e035466f39040fc"
   },
   {
     "title": "Asia-Pacific: A real diversifier for US equity risk | Robeco Global",
@@ -546,6 +715,71 @@
     "topic": "중소형주 · 밸류에이션"
   },
   {
+    "title": "[AI Money Map 02] 메타의 Muse, 개인용 AI Agent 시장을 열다",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-02",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12193",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-6ddf4d59efaed517757b8e4b"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(261002)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-02",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12191",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-a69d51f9668879cada4bb670"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-02",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12189",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-0114ab6e192197e27992c05b"
+  },
+  {
+    "title": "[IBKS Monthly] 2026 IBKS Insight Monthly (10)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-02",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12195",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-d764a488d1bc28d0fb66a572"
+  },
+  {
+    "title": "[조선] LPG 해운 업황, 일시적 왜곡이 아닌 구조 변화의 예고편",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-02",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12197",
+    "teaser": "",
+    "author": "장성호",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-d3749d4e6e783b78fb28cee0"
+  },
+  {
     "title": "A Moment in Macro blog",
     "source": "Man Group",
     "region": "퀀트",
@@ -622,6 +856,71 @@
     "ticker": "",
     "topic": "",
     "id": "gh-a8e6ff9234552ce51cd20dcd"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(261001)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-01",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12181",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-f401124ea6bba67c755efc1f"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-01",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12179",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-20dbed82def7c6d1452e3929"
+  },
+  {
+    "title": "[IBKS Monthly] 자동차/2차전지",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-01",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12187",
+    "teaser": "",
+    "author": "이현욱",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-9f345b3e53d3c1de451aefbe"
+  },
+  {
+    "title": "[Micron technology] 26년 4분기 실적 리뷰",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-01",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12183",
+    "teaser": "",
+    "author": "김운호",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-f2b53bf21f40193c35176a96"
+  },
+  {
+    "title": "[무신사 IPO] 무신사의 적정 밸류는?",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-01",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12185",
+    "teaser": "",
+    "author": "조경진",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-217d637ba7ab5d37a2fe545a"
   },
   {
     "title": "[자산배분의 창(窓)] AI 자금조달은 어떻게 미국 장기금리를 움직이는가",
@@ -728,6 +1027,32 @@
     "id": "gh-bc1e15de6ed95ef80965b76e"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(260930)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-30",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12177",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-ee51383908cc3f05c1723d7f"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-30",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12175",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-1bfdbc56f78ef91758b94d47"
+  },
+  {
     "title": "3 income investing ideas | Fidelity",
     "source": "Fidelity",
     "region": "미국",
@@ -767,6 +1092,58 @@
     "id": "gh-5b2acfd2815537743bcfa349"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(260929)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-29",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12171",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-e5394a778c9c6949fc6a9348"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-29",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12169",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-2b045cb0019736d22a35f8a0"
+  },
+  {
+    "title": "[조선] VLCC 운임/용선료 급등을 투자 부담 완화로 이해하자",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-29",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12173",
+    "teaser": "",
+    "author": "장성호",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-6ee54cefd5fb46ed5f3c0a8a"
+  },
+  {
+    "title": "Taking an Active Approach in Today’s Fixed Income Market | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-29",
+    "url": "https://www.man.com/insights/active-approach-in-todays-fixed-income-market",
+    "teaser": "As hyperscalers pile into the corporate bond market, unintentional concentration risk is also rising.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-e272cf8c6ce1e7c7e733ca7b"
+  },
+  {
     "title": "The Rise of Healthcare Consumerism | Morgan Stanley",
     "source": "Morgan Stanley",
     "region": "미국",
@@ -778,6 +1155,19 @@
     "ticker": "",
     "topic": "",
     "id": "gh-7b87bbbd725803c362fcd295"
+  },
+  {
+    "title": "Weathering July's Storms | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-29",
+    "url": "https://www.man.com/insights/weathering-july-storms",
+    "teaser": "How have quant equity strategies fared amid China’s shifting equity market dynamics?",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-913b6b95809c4e43aa3c4d8d"
   },
   {
     "title": "(박주란) Commodities Weekly: 미국 디젤 수출 제한 검토와 중국의 구리 비축",
@@ -806,6 +1196,45 @@
     "id": "gh-9d6ceb7ebb0fa0a715ae5a46"
   },
   {
+    "title": "[Europe Tracker] 유럽 자동차 8월: BEV YoY +62.7%, YTD 점유율 2...",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-28",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12167",
+    "teaser": "",
+    "author": "이현욱",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-efa247243e170c651877e921"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260928)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-28",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12165",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-351dda1920af407db4f1a748"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-28",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12163",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-318c51a3988b392a3a969967"
+  },
+  {
     "title": "Insights from Fidelitys portfolio manager Gerard Benson | Fidelity",
     "source": "Fidelity",
     "region": "미국",
@@ -830,6 +1259,19 @@
     "ticker": "",
     "topic": "Tax Aware",
     "id": "gh-5705a417d0c6483b2686cbad"
+  },
+  {
+    "title": "AI Tokens: The Hot Commodity Whose Price Keeps Falling | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-25",
+    "url": "https://www.man.com/insights/ai-tokens",
+    "teaser": "AI tokens are the world’s newest commodity. But while they share the characteristics of coal, oil and electricity, they are uniquely deflationary. What is more, the market dynamics surrounding them reprice the value of intelligence itself.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-2a49839577b54901144315e4"
   },
   {
     "title": "China’s New Era of Manufacturing | Morgan Stanley",
@@ -936,6 +1378,45 @@
     "id": "gh-77b2bae601598e24e9dc55a8"
   },
   {
+    "title": "[AI Money Map 01] Figure AI의 신형 로봇, 사전학습 없이 가정 업...",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-23",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12161",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-26dac5bacadac015121d6020"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260923)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-23",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12159",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-73bf2c842638fbd845d94da9"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-23",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12157",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-f8562c9cb9d2ac399aae0bba"
+  },
+  {
     "title": "Insights from Fidelitys portfolio manager Dan Kelley | Fidelity",
     "source": "Fidelity",
     "region": "미국",
@@ -999,6 +1480,32 @@
     "ticker": "",
     "topic": "",
     "id": "gh-3495c5ee8b99d4064f1c9f85"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260922)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-22",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12155",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-aceb08fc5193805307a6f1c7"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-22",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12153",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-9d2bc611ec68e298885a84b9"
   },
   {
     "title": "2026년 4분기 Global Asset Allocation: 3M Regime에 적응하기",
@@ -1066,6 +1573,32 @@
     "id": "gh-d8fb8a5f5c3227be2980ec19"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(260921)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-21",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12151",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-8ddd6bceea306866f5dff9bc"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-21",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12149",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-7a9b215f72df6be9de75a50e"
+  },
+  {
     "title": "Misconceptions about Tax-Aware Long-Short: Misleading Parallels with Direct Indexing, Part I",
     "source": "AQR",
     "region": "퀀트",
@@ -1090,6 +1623,71 @@
     "ticker": "",
     "topic": "",
     "id": "gh-c31b4b228dc0d33c0829c3d7"
+  },
+  {
+    "title": "[2차전지] 엘앤에프 Investor Day 2026 후기",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-18",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12145",
+    "teaser": "",
+    "author": "이현욱",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-dde46b9970e51241cc62dc5f"
+  },
+  {
+    "title": "[AI 보안 Risk] AI 개발 속도 조절 논란, DRAM 수요에 변수가 안된다",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-18",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12139",
+    "teaser": "",
+    "author": "김운호",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-ebefd88fb1e0ee2ff45aae97"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260918)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-18",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12141",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-e959d5e68e79fd812506a7e5"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-18",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12143",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-ccfde6d3cd7131dcb52bb563"
+  },
+  {
+    "title": "[호텔] 2027년 3분기 Strong Shortage! 예상",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-18",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12147",
+    "teaser": "",
+    "author": "남성현",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-f11d04d772b289637625c1f9"
   },
   {
     "title": "Should You Invest in Alternatives? | Dimensional",
@@ -1157,6 +1755,32 @@
     "id": "gh-3575511e10b7b540cbcd139a"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(260917)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-17",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12135",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-425657cef3a1c468f373c330"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-17",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12137",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-b40573589bb06b265e5ce143"
+  },
+  {
     "title": "Are Higher Rates Cause to Add More Fixed Income? | Dimensional",
     "source": "Dimensional",
     "region": "퀀트",
@@ -1168,6 +1792,32 @@
     "ticker": "",
     "topic": "",
     "id": "gh-92041a8e1e26d2c7d2213a84"
+  },
+  {
+    "title": "Professor Alex Edmans, on the Madness of Markets… and Sustainable Investing | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-17",
+    "url": "https://www.man.com/insights/ri-podcast-alex-edmans",
+    "teaser": "Professor Alex Edmans, London Business School, talks about why smart investors make crazy decisions — and how to exploit them.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-ba8973683a2aa6b48c9910d7"
+  },
+  {
+    "title": "The Assets Powering the Next Investment Cycle | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-17",
+    "url": "https://www.man.com/insights/assets-powering-next-investment-cycle",
+    "teaser": "Essential assets, long-term investment trends and the case for listed infrastructure today.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-7078adb24f5e1f1db7cfab0c"
   },
   {
     "title": "Trading US Corporate Bonds: It Pays to Be Flexible | Dimensional",
@@ -1194,6 +1844,32 @@
     "ticker": "",
     "topic": "",
     "id": "gh-9877d6c46cd50bcce78ce3b4"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260916)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-16",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12131",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-14aa5f41d06be76ab75d5bdd"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-16",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12133",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-35c480e1351f3ba991b80203"
   },
   {
     "title": "[자산배분의 창(窓)] AI 회사채 시대, 늘어나는 장기 듀레이션 공급",
@@ -1235,6 +1911,45 @@
     "id": "gh-c5a4b3e35dbdfa845ee3964b"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(260915)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-15",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12127",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-573abb354f30809df3445177"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-15",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12129",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-7d3b384da1f49631124c6caa"
+  },
+  {
+    "title": "Beyond Buffers: Can You Have Your Cake and Eat It Too? | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-15",
+    "url": "https://www.man.com/insights/beyond-buffers-can-you-have-your-cake-and-eat-it-too",
+    "teaser": "What if downside risk mitigation didn't have to come at the cost of long-term growth?",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-87c78c9da89ae333a87d3aac"
+  },
+  {
     "title": "Canada Enters a Path to Higher Growth | Morgan Stanley",
     "source": "Morgan Stanley",
     "region": "미국",
@@ -1274,6 +1989,19 @@
     "id": "gh-487b005aa0e7ff7adbcc23e5"
   },
   {
+    "title": "Why Now for Quantitative Investing? | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "퀀트 리서치",
+    "publishedAt": "2026-09-15",
+    "url": "https://www.man.com/insights/why-now-for-quantitative-investing",
+    "teaser": "The growth of alternative data and advanced data science techniques within Emerging Markets provides fertile ground for quantitative approaches.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-9c4ccae8d72a674d509e01d5"
+  },
+  {
     "title": "(김중한/이영진) 글로벌 AI: AI 속도 조절론, 위기일까 기회일까?",
     "source": "삼성증권",
     "region": "한국",
@@ -1285,6 +2013,32 @@
     "ticker": "",
     "topic": "",
     "id": "gh-0a443433f12214ab3f526b83"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260914)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-14",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12125",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-d184f549362a5784d4da9f5a"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-14",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12123",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-1d6afc6ac9c1972c4c140f64"
   },
   {
     "title": "A Road Map for Strengthening Your Business | Dimensional",
@@ -1313,6 +2067,19 @@
     "id": "gh-0bf64d0596fbeefbee2785ad"
   },
   {
+    "title": "The Rise of Liquid Alternatives in a World of Synchronised Risk | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-09-14",
+    "url": "https://www.man.com/insights/the-rise-of-liquid-alternatives",
+    "teaser": "60/40 was hard to beat for decades, but it’s being tested, making space for liquid alternatives to re-emerge.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-4272d397b0114738d760b816"
+  },
+  {
     "title": "(이영진) 오라클 (ORCL US): F1Q27 Review - 가속화",
     "source": "삼성증권",
     "region": "한국",
@@ -1324,6 +2091,58 @@
     "ticker": "",
     "topic": "",
     "id": "gh-6905349f08a126ecc3dcfda7"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260911)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-11",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12115",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-8fb394fc25793cf2974ab0b8"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-11",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12119",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-d9fa25d9b187fc1287c2867b"
+  },
+  {
+    "title": "[IBKS 방산 In-Depth] 불확실할수록 무장은 확실해진다",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-11",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12121",
+    "teaser": "",
+    "author": "김태현",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-0976d928c5e749e86822eed4"
+  },
+  {
+    "title": "[에너지/소재] Solar를 지우는 태양광 업체들",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-11",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12117",
+    "teaser": "",
+    "author": "이동욱",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-5b8bb3f375b52364a96e359b"
   },
   {
     "title": "The Formula for a Healthier, Wealthier Marriage | Dimensional",
@@ -1352,6 +2171,45 @@
     "id": "gh-c1f4a4b8fa1de6fe5a408dd2"
   },
   {
+    "title": "[IBKS Daily] Morning Brief(260910)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-10",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12113",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-52e2f7d584c3a7703a4ef86d"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-10",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12111",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-6d6b378074725832869019df"
+  },
+  {
+    "title": "[에너지/소재] 사우디의 화학 공장도 안전하지 않다",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-10",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12109",
+    "teaser": "",
+    "author": "이동욱",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-469001c997ca7c7cd290a5bb"
+  },
+  {
     "title": "In the Age of AI, A Quant’s Edge is Human",
     "source": "AQR",
     "region": "퀀트",
@@ -1363,6 +2221,19 @@
     "ticker": "",
     "topic": "Machine Learning",
     "id": "gh-aa40fdcc0448320caa291ec5"
+  },
+  {
+    "title": "The Quant Renaissance Part III: Who's Ready for the Next Winter? | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "퀀트 리서치",
+    "publishedAt": "2026-09-10",
+    "url": "https://www.man.com/insights/quant-renaissance-part",
+    "teaser": "Did quant managers really change after the Quant Winter? Their returns say some did and some did not.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-64b9a5690d899d920e6a8e94"
   },
   {
     "title": "(박혜란/권범석) 2026년 美중간선거와 주식시장 시사점: 높아지는 Blue Wave 가능성",
@@ -1389,6 +2260,32 @@
     "ticker": "",
     "topic": "",
     "id": "gh-c43946dcf3baf9eeb34f67fc"
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260909)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-09",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12107",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-d2c834c35be71295f2871d7b"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-09",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12105",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-b21096ef39c69458a66b3ef7"
   },
   {
     "title": "Bond selloff: What has been causing it and what to know | Fidelity",
@@ -1428,6 +2325,45 @@
     "topic": "글로벌 자산전략",
     "id": "gh-27ad295f3cee5ccf13b79c27",
     "ticker": ""
+  },
+  {
+    "title": "[IBKS Daily] Morning Brief(260908)",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-08",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12101",
+    "teaser": "",
+    "author": "리서치본부",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-b913575f91a719a69a50eac0"
+  },
+  {
+    "title": "[IBKS Daily] 인터넷/게임",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-08",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12099",
+    "teaser": "",
+    "author": "이승훈",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-6d9712f8e88f8f911421a154"
+  },
+  {
+    "title": "[화장품] 무신사 '뷰티 파머시'가 이어가는 K뷰티 확장 스토리",
+    "source": "IBK투자증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-09-08",
+    "url": "https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?popup=null&seq=12103",
+    "teaser": "",
+    "author": "조경진",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-6a55458e8838fa6c3c193e35"
   },
   {
     "id": "aqr-liquidity-20260908",
@@ -2366,6 +3302,19 @@
     "id": "gh-ef770d168c72fc7e87d656d3"
   },
   {
+    "title": "Why Trend Following Seems the Obvious Choice in Uncertain Times | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-08-10",
+    "url": "https://www.man.com/insights/why-trend-following-seems-the-obvious-choice-in-uncertain-times",
+    "teaser": "Beta and alpha. Why settle for one when you can have both?",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-4c602a8b01355063ed9a968d"
+  },
+  {
     "title": "(권범석) K-증시 투자 전략 노트: Vol. 7: 코스닥, 아래보다 위를 볼 때",
     "source": "삼성증권",
     "region": "한국",
@@ -2780,6 +3729,45 @@
     "ticker": "",
     "topic": "",
     "id": "gh-dad0c4f65f42473b6933c5ae"
+  },
+  {
+    "title": "H2 2026 Credit Outlook: The AI Buildout – Boom or Bubble? | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-06-16",
+    "url": "https://www.man.com/insights/2026-h2-credit-outlook",
+    "teaser": "AI supply is breaking records, but bubble risks are mounting.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-bae0268fffc969fcf26bbcaf"
+  },
+  {
+    "title": "Scenarios and Asset Class Implications | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-06-09",
+    "url": "https://www.man.com/insights/scenarios-assets",
+    "teaser": "Amid the geopolitical turmoil driven by the Iran war, we see multiple potential outcomes for economies and markets. We examine key asset allocation opportunities in the context of our base case, downside and upside scenarios..",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-fb3232d2466a4204c7763225"
+  },
+  {
+    "title": "Under Pressure, or the Curious Case of Resilient Markets | Man Group",
+    "source": "Man Group",
+    "region": "퀀트",
+    "category": "리서치",
+    "publishedAt": "2026-06-08",
+    "url": "https://www.man.com/insights/under-pressure",
+    "teaser": "Global ruptures, policy activism, wealth imbalances and AI’s unstoppable rise don’t seem to be fazing markets. Strap in for turbulence ahead.",
+    "author": "Man Group",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-f847f2e85447edf58e808655"
   },
   {
     "title": "Foundations of Private Markets and Private Credit | Dimensional",
