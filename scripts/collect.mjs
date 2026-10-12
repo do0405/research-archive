@@ -98,6 +98,24 @@ export function parseIbk(html, now = new Date()) {
   return rows;
 }
 
+export function parseYuanta(html, now = new Date(), section = 'RB30A') {
+  const rows = [];
+  for (const block of html.match(/<tr\s+class="js-moveRS">[\s\S]*?<\/tr>/gi) ?? []) {
+    const date = block.match(/<td>\s*(\d{4})\/(\d{2})\/(\d{2})\s*<\/td>/i);
+    const detail = block.match(/<a\s+href="#"\s+cmd-type="view"\s+data-seq="(\d+)"[^>]*>([\s\S]*?)<\/a>/i);
+    if (!date || !detail) continue;
+    const publishedAt = `${date[1]}-${date[2]}-${date[3]}`;
+    if (!recent(publishedAt, now)) continue;
+    const title = clean(detail[2].split(/<p\b/i)[0]);
+    const teaser = clean(detail[2].match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1]).slice(0, 320);
+    if (!title) continue;
+    const group = section.startsWith('RB') ? 'RB30' : section;
+    const subgroup = section.startsWith('RB') ? section : '';
+    rows.push({ title, source: '유안타증권', region: '한국', category: /quant|퀀트|qwer|스크리닝|팩터|factor|계량/i.test(`${title} ${teaser}`) ? '퀀트 리서치' : '리서치', publishedAt, url: `https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?cd006=&cd007=${group}&cd008=${subgroup}&SEQ=${detail[1]}`, teaser, author: '', ticker: '', topic: '투자전략' });
+  }
+  return rows;
+}
+
 const meta = (html, name) => { for (const tag of html.match(/<meta\b[^>]*>/gi) ?? []) if (new RegExp(`(?:name|property)=["']${name}["']`, 'i').test(tag)) return clean(tag.match(/content=["']([^"']*)["']/i)?.[1]); return ''; };
 export function parseArticle(html, url, source, now, region = '미국') {
   const title = meta(html, 'og:title') || clean(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1]);
@@ -167,6 +185,17 @@ async function collectIbk(now) {
   return rows;
 }
 
+async function collectYuanta(now) {
+  const rows = [];
+  for (const section of ['RB30A', 'RB30B', 'RB30C', 'RE01', 'RE02']) {
+    const group = section.startsWith('RB') ? 'RB30' : section;
+    const subgroup = section.startsWith('RB') ? section : '';
+    const html = await fetchText(`https://account.myasset.com/myasset/research/rs_list/rs_list.cmd?cd006=&cd007=${group}&cd008=${subgroup}`);
+    rows.push(...parseYuanta(html, now, section));
+  }
+  return rows;
+}
+
 export async function collectAll(now = new Date()) {
   let existing = [];
   try { existing = JSON.parse(await readFile(reportsPath, 'utf8')); } catch { /* First run. */ }
@@ -179,6 +208,7 @@ export async function collectAll(now = new Date()) {
     ['삼성증권', async () => collectSamsung(now)],
     ['한국투자증권', async () => parseKoreaInvestment(await fetchText('https://securities.koreainvestment.com/main/research/Main.jsp'), now)],
     ['IBK투자증권', async () => collectIbk(now)],
+    ['유안타증권', async () => collectYuanta(now)],
     ['Goldman Sachs', async () => collectArticles('https://www.goldmansachs.com/what-we-do/research', 'Goldman Sachs', /\/insights\/articles\/[a-z0-9-]+/gi, now)],
     ['J.P. Morgan', async () => collectArticles('https://www.jpmorgan.com/insights/research', 'J.P. Morgan', /\/insights\/(?:global-research|research)\/[a-z0-9\/-]+/gi, now)],
     ['Morgan Stanley', async () => collectArticles('https://www.morganstanley.com/what-we-do/research/', 'Morgan Stanley', /\/insights\/articles\/[a-z0-9-]+/gi, now)],
