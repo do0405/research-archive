@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { mergeReports, parseAqr, parseArticle, parseHana, parseMirae } from '../scripts/collect.mjs';
+import { mergeReports, parseAqr, parseArticle, parseHana, parseKoreaInvestment, parseMirae, parseSamsung } from '../scripts/collect.mjs';
 
 test('AQR listing yields a dated original article link and public introduction', () => {
   const html = '<div class="search-list-v2__item "><a class="cta--black h2" href="/Insights/Research/White-Papers/Test-Study">Test Study</a><p class="article__date">October 7, 2026</p><p class="article__summary">A public &amp; short introduction.</p><p class="eyebrow article__eyebrow">Factors</p></div>';
@@ -24,6 +24,29 @@ test('Mirae listing uses a view page, avoiding the PDF download notice', () => {
   assert.equal(rows.length, 1);
   assert.match(rows[0].url, /messageId=2343289/);
   assert.equal(rows[0].teaser, '원화와 금리');
+});
+
+test('Samsung public listing yields a direct PDF and identifies Korean quant research', () => {
+  const html = '<tr><td class="l"><a href="/common.do?cmd=down&amp;fileName=3010/quant.pdf" title="(김동영) 퀀트 모델 추천 종목 PDF 원문보기(새창열림)">퀀트 모델</a></td><td>김동영</td><td>2026-10-12</td></tr>';
+  const rows = parseSamsung(html, new Date('2026-10-13T00:00:00Z'));
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].category, '퀀트 리서치');
+  assert.equal(rows[0].url, 'https://www.samsungpop.com/common.do?cmd=down&fileName=3010%2Fquant.pdf');
+});
+
+test('Korea Investment public home listing uses an accessible detail URL', () => {
+  const html = `<li><a class="view_con" href="javascript:void(0)" onclick="goDetail('/main/research/research/StrategyDetail.jsp?jkGubun=6&id=160091');return false"><p class="head">투자전략</p><strong class="body_tit">증시 전망</strong><p class="body_sub">공개된 소개</p></a><span class="info">리서치본부<em>2026.10.12</em></span></li>`;
+  const rows = parseKoreaInvestment(html, new Date('2026-10-13T00:00:00Z'));
+  assert.equal(rows.length, 1);
+  assert.match(rows[0].url, /StrategyDetail\.jsp\?id=160091&jkGubun=6/);
+  assert.equal(rows[0].teaser, '공개된 소개');
+});
+
+test('Morgan Stanley and Man Group publication dates are read from their public pages', () => {
+  const morgan = '<meta property="og:title" content="Market Outlook"/><meta name="content_publishedAt" content="2026-09-29T04:00:00Z"/><meta name="description" content="Public introduction"/>';
+  assert.equal(parseArticle(morgan, 'https://www.morganstanley.com/insights/articles/outlook', 'Morgan Stanley', new Date('2026-10-13T00:00:00Z'))?.publishedAt, '2026-09-29');
+  const man = '<meta property="og:title" content="Factor Outlook"/><div id="article-date-text"><p>15 September 2026</p></div>';
+  assert.equal(parseArticle(man, 'https://www.man.com/insights/factor-outlook', 'Man Group', new Date('2026-10-13T00:00:00Z'), '퀀트')?.publishedAt, '2026-09-15');
 });
 
 test('J.P. Morgan publication date is read from its public metadata', () => {
