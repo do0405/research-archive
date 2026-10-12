@@ -1,5 +1,31 @@
 [
   {
+    "title": "Misconceptions about Tax-Aware Long-Short: Misleading Parallels with Direct Indexing, Part III",
+    "source": "AQR",
+    "region": "퀀트",
+    "category": "퀀트 리서치",
+    "publishedAt": "2026-10-12",
+    "url": "https://www.aqr.com/Insights/Research/Tax-Aware-Investing/Misconceptions-about-Tax-Aware-Long-Short-Misleading-Parallels-with-Direct-Indexing-Part-III",
+    "teaser": "In the final installment of our series, we address two misconceptions about the risks and trade-offs involved in tax-aware long-short strategies. We explain why tracking error is necessary to pursue pre-tax alpha and why effective portfolio construction requires balancing expected returns, risk, costs, and taxes rather",
+    "author": "AQR",
+    "ticker": "",
+    "topic": "Tax Aware",
+    "id": "gh-098efd474b38f3249f7de15c"
+  },
+  {
+    "title": "POSCO홀딩스 (005490/매수) — 철강으로 지키고 리튬으로 넓힌다",
+    "source": "미래에셋증권",
+    "region": "한국",
+    "category": "리서치",
+    "publishedAt": "2026-10-12",
+    "url": "https://securities.miraeasset.com/bbs/board/message/view.do?categoryId=1521&messageId=2343290",
+    "teaser": "철강으로 지키고 리튬으로 넓힌다",
+    "author": "",
+    "ticker": "",
+    "topic": "",
+    "id": "gh-63d2a3e5737213f09fbd8460"
+  },
+  {
     "title": "글로벌 마켓 브리핑(10월 12일) — 기술주 반등과 유가 안정 기대, 미국증시 반등",
     "source": "미래에셋증권",
     "region": "한국",
@@ -78,17 +104,30 @@
     "id": "gh-c92b8289d60c93fbd5a2de7f"
   },
   {
-    "title": "POSCO홀딩스 (005490/매수) — 철강으로 지키고 리튬으로 넓힌다",
+    "id": "gs-bonds-20261008",
+    "title": "Are Bonds Becoming a Better Investment for Portfolios?",
+    "source": "Goldman Sachs",
+    "region": "미국",
+    "category": "자산배분",
+    "publishedAt": "2026-10-08",
+    "url": "https://www.goldmansachs.com/insights/articles/are-bonds-becoming-a-better-investment-for-portfolios",
+    "teaser": "Higher Treasury yields have renewed the case for bonds across different investment horizons.",
+    "author": "Goldman Sachs Research",
+    "ticker": "",
+    "topic": "채권 · 포트폴리오"
+  },
+  {
+    "title": "NAV Dashboard Weekly — NAV 하락이 두드러졌던 한 주",
     "source": "미래에셋증권",
     "region": "한국",
     "category": "리서치",
-    "publishedAt": "2026-10-12",
-    "url": "https://securities.miraeasset.com/bbs/board/message/view.do?categoryId=1521&messageId=2343290",
-    "teaser": "철강으로 지키고 리튬으로 넓힌다",
+    "publishedAt": "2026-10-08",
+    "url": "https://securities.miraeasset.com/bbs/board/message/view.do?categoryId=1521&messageId=2343268",
+    "teaser": "NAV 하락이 두드러졌던 한 주",
     "author": "",
     "ticker": "",
     "topic": "",
-    "id": "gh-63d2a3e5737213f09fbd8460"
+    "id": "gh-a07b7aa9a1070726032f2130"
   },
   {
     "title": "한국 마켓 클로징(10월 8일) — 유가·금리 부담 확대",
@@ -115,32 +154,6 @@
     "ticker": "",
     "topic": "",
     "id": "gh-fdd260fc6574fabd44536727"
-  },
-  {
-    "id": "gs-bonds-20261008",
-    "title": "Are Bonds Becoming a Better Investment for Portfolios?",
-    "source": "Goldman Sachs",
-    "region": "미국",
-    "category": "자산배분",
-    "publishedAt": "2026-10-08",
-    "url": "https://www.goldmansachs.com/insights/articles/are-bonds-becoming-a-better-investment-for-portfolios",
-    "teaser": "Higher Treasury yields have renewed the case for bonds across different investment horizons.",
-    "author": "Goldman Sachs Research",
-    "ticker": "",
-    "topic": "채권 · 포트폴리오"
-  },
-  {
-    "title": "NAV Dashboard Weekly — NAV 하락이 두드러졌던 한 주",
-    "source": "미래에셋증권",
-    "region": "한국",
-    "category": "리서치",
-    "publishedAt": "2026-10-08",
-    "url": "https://securities.miraeasset.com/bbs/board/message/view.do?categoryId=1521&messageId=2343268",
-    "teaser": "NAV 하락이 두드러졌던 한 주",
-    "author": "",
-    "ticker": "",
-    "topic": "",
-    "id": "gh-a07b7aa9a1070726032f2130"
   },
   {
     "id": "hana-ai-rates-20261007",
@@ -176,7 +189,7 @@
     "category": "자산배분",
     "publishedAt": "2026-10-05",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288968&dbType=",
-    "teaser": "에너지발 물가 상승, 다시 어려워진 유럽의 선택",
+    "teaser": "> 에너지발 물가 상승, 다시 어려워진 유럽의 선택",
     "author": "이영주",
     "ticker": "",
     "topic": "글로벌 자산전략"
@@ -214,17 +227,18 @@
     "category": "자산배분",
     "publishedAt": "2026-10-01",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288935&dbType=",
-    "teaser": "국채 밖에서도 늘어나는 장기 금리위험",
+    "teaser": "> 국채 밖에서도 늘어나는 장기 금리위험",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-ecf30af16b34d499c7e0a2ca"
+    "id": "gh-ecf30af16b34d499c7e0a2ca",
+    "ticker": ""
   },
   {
     "title": "Misconceptions about Tax-Aware Long-Short: Misleading Parallels with Direct Indexing, Part II",
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-09-27",
+    "publishedAt": "2026-09-28",
     "url": "https://www.aqr.com/Insights/Research/Tax-Aware-Investing/Misconceptions-about-Tax-Aware-Long-Short-Misleading-Parallels-with-Direct-Indexing-Part-II",
     "teaser": "In our previous post, we addressed two misconceptions about the trading and hedging mechanisms of tax-aware long-short strategies. Here, we clarify that unlike direct indexing, the tax benefit of tax-aware long-short strategies comes primarily from gain deferral rather than loss harvesting, and that higher pre-tax alph",
     "author": "AQR",
@@ -237,7 +251,7 @@
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-09-20",
+    "publishedAt": "2026-09-21",
     "url": "https://www.aqr.com/Insights/Research/Tax-Aware-Investing/Misconceptions-about-Tax-Aware-Long-Short-Misleading-Parallels-with-Direct-Indexing-Part-I",
     "teaser": "Tax-aware long-short (TA LS) investing is often viewed as an extension of direct indexing, but the two approaches have fundamentally different objectives and mechanics. We explain why TA LS strategies trade to pursue alpha rather than simply harvest losses or closely track a benchmark.",
     "author": "AQR",
@@ -252,17 +266,18 @@
     "category": "자산배분",
     "publishedAt": "2026-09-16",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288793&dbType=",
-    "teaser": "국채에서 민간으로 확산되는 장기 듀레이션 공급",
+    "teaser": "> 국채에서 민간으로 확산되는 장기 듀레이션 공급",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-17e61c8269daef0c7c6ed38e"
+    "id": "gh-17e61c8269daef0c7c6ed38e",
+    "ticker": ""
   },
   {
     "title": "Inflation Redux?",
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-09-14",
+    "publishedAt": "2026-09-15",
     "url": "https://www.aqr.com/Insights/Research/Alternative-Thinking/Inflation-Redux",
     "teaser": "This article updates AQR’s earlier analysis on inflation sensitivities and inflation protection, highlighting the benefits of commodities and trend following strategies and how to evaluate different implementations. It asks, “How should you prepare for the possibility of another global inflation shock?”",
     "author": "AQR",
@@ -275,7 +290,7 @@
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-09-09",
+    "publishedAt": "2026-09-10",
     "url": "https://www.aqr.com/Insights/Research/Trade-Publication/In-the-Age-of-AI-A-Quants-Edge-is-Human",
     "teaser": "While quantitative investing has long relied on technology and data, AQR argues that the AI era makes human capabilities even more valuable. The piece explores why creativity, emotional intelligence, and the ability to lead and connect with others may prove to be the most enduring competitive advantages in finance and ",
     "author": "AQR",
@@ -293,7 +308,8 @@
     "teaser": "미국 경제는 높은 금리에도 주택가격과 소비가 버티고, AI 투자도 이어지면서 예상보다 견조한 흐름. 다만 현재 흐름만으로 미국 경제를 판단하기보다, 이를 유지하는 과정에서 나타나는 부담과 변화도 함께 살펴볼 필요",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-27ad295f3cee5ccf13b79c27"
+    "id": "gh-27ad295f3cee5ccf13b79c27",
+    "ticker": ""
   },
   {
     "id": "aqr-liquidity-20260908",
@@ -301,7 +317,7 @@
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-09-07",
+    "publishedAt": "2026-09-08",
     "url": "https://www.aqr.com/Insights/Research/Tax-Aware-Investing/Not-Locked-Up-Accessing-Liquidity-in-Tax-Aware-Portfolios",
     "teaser": "Liquidity need not be an all-or-nothing decision. Our latest research explores how investors may be able to access meaningful cash from tax-aware long-short strategies while remaining invested and retaining key portfolio attributes.",
     "author": "AQR",
@@ -315,17 +331,18 @@
     "category": "자산배분",
     "publishedAt": "2026-09-03",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288653&dbType=",
-    "teaser": "높아진 금융부담, 식지 않는 소비 열기",
+    "teaser": "> 높아진 금융부담, 식지 않는 소비 열기",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-a170b6107afb2d2ac1a1ee2d"
+    "id": "gh-a170b6107afb2d2ac1a1ee2d",
+    "ticker": ""
   },
   {
     "title": "Investing in a Warming World",
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-08-31",
+    "publishedAt": "2026-09-01",
     "url": "https://www.aqr.com/Insights/Research/White-Papers/Investing-in-a-Warming-World",
     "teaser": "Popular carbon metrics can make portfolios appear to be decarbonizing even when underlying emissions change little. This paper explains why investors should distinguish between relative carbon exposure and financed emissions when evaluating climate-aware investment strategies.",
     "author": "AQR",
@@ -337,32 +354,21 @@
     "title": "Gold Is Forecast to Climb as Central Banks Buy the Precious Metal",
     "source": "Goldman Sachs",
     "region": "미국",
-    "category": "원자재",
+    "category": "리서치",
     "publishedAt": "2026-08-28",
     "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
-    "teaser": "Goldman Sachs Research forecasts that gold may rise to $4,900 per troy ounce by the end of 2026.",
-    "author": "Goldman Sachs Research",
-    "topic": "금 · 중앙은행",
-    "id": "gh-27c53c4e788ef19d3050f2f8"
-  },
-  {
-    "title": "[자산배분의 창(窓)] 하반기 자산배분, 금의 ‘어부지리 (漁父之利)’에 주목",
-    "source": "하나증권",
-    "region": "한국",
-    "category": "자산배분",
-    "publishedAt": "2026-08-27",
-    "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288566&dbType=",
-    "teaser": "금 반등, 두 번의 모멘텀",
-    "author": "이영주",
-    "topic": "글로벌 자산전략",
-    "id": "gh-7f4446867be392fc658bf4be"
+    "teaser": "Goldman Sachs Research expects gold to rise to $4,900/toz by the end of 2026, supported by demand from central banks and declining expectations of US rate hikes.",
+    "author": "Goldman Sachs",
+    "topic": "",
+    "id": "gh-27c53c4e788ef19d3050f2f8",
+    "ticker": ""
   },
   {
     "title": "Liquidity without Liquidation",
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-08-27",
+    "publishedAt": "2026-08-28",
     "url": "https://www.aqr.com/Insights/Research/Working-Paper/Liquidity-without-Liquidation",
     "teaser": "This paper shows that investors may be able to access meaningful liquidity from tax-aware strategies while preserving the remaining portfolio’s tracking error, leverage, and pre-tax return potential. An adaptive withdrawal process may also better manage capital-gain realization than a fixed withdrawal schedule.",
     "author": "AQR",
@@ -371,11 +377,24 @@
     "id": "gh-8d1a528a6dfc14a709b4baec"
   },
   {
+    "title": "[자산배분의 창(窓)] 하반기 자산배분, 금의 ‘어부지리 (漁父之利)’에 주목",
+    "source": "하나증권",
+    "region": "한국",
+    "category": "자산배분",
+    "publishedAt": "2026-08-27",
+    "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288566&dbType=",
+    "teaser": "> 금 반등, 두 번의 모멘텀",
+    "author": "이영주",
+    "topic": "글로벌 자산전략",
+    "id": "gh-7f4446867be392fc658bf4be",
+    "ticker": ""
+  },
+  {
     "title": "The Case for Taking a Total Portfolio Approach",
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-08-24",
+    "publishedAt": "2026-08-25",
     "url": "https://www.aqr.com/Insights/Research/Trade-Publication/The-Case-for-Taking-a-Total-Portfolio-Approach",
     "teaser": "As traditional sources of return face increasing challenges, investors may need to look beyond long-only active management and private equity. We argue that portable alpha, viewed through a total portfolio approach, can offer a more efficient path to enhancing returns while improving liquidity, fees, and portfolio outc",
     "author": "AQR",
@@ -390,10 +409,11 @@
     "category": "자산배분",
     "publishedAt": "2026-08-21",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288499&dbType=",
-    "teaser": "텍사스, 데이터센터 전력망 연결(접속) 심사 강화",
+    "teaser": "> 텍사스, 데이터센터 전력망 연결(접속) 심사 강화",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-e83439cf0fb0aba1d075ac0c"
+    "id": "gh-e83439cf0fb0aba1d075ac0c",
+    "ticker": ""
   },
   {
     "title": "[자산배분의 창(窓)] 미국 주택시장의 이상현상 ②: 건설업체들은 높은 재고 물량을 어떻게 감당하고 있을",
@@ -402,10 +422,11 @@
     "category": "자산배분",
     "publishedAt": "2026-08-20",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288487&dbType=",
-    "teaser": "수요는 부진한데 신축 공급은 여전히 높다",
+    "teaser": ">수요는 부진한데 신축 공급은 여전히 높다",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-008be2fa26abcc64b9267122"
+    "id": "gh-008be2fa26abcc64b9267122",
+    "ticker": ""
   },
   {
     "id": "aqr-alpha-20260819",
@@ -413,7 +434,7 @@
     "source": "AQR",
     "region": "퀀트",
     "category": "퀀트 리서치",
-    "publishedAt": "2026-08-18",
+    "publishedAt": "2026-08-19",
     "url": "https://www.aqr.com/Insights/Research/White-Papers/Academic-Alpha",
     "teaser": "This paper reintroduces style premia investing—or “academic alpha”—and explains how well-researched, skillfully implemented strategies can provide liquid, transparent, and cost-effective sources of uncorrelated returns. It highlights how continued innovation in signal design, portfolio construction, and multi-asset imp",
     "author": "AQR",
@@ -427,10 +448,11 @@
     "category": "자산배분",
     "publishedAt": "2026-08-13",
     "url": "https://www.hanaw.com/main/research/research/download.cmd?attachFileSeq=1&bbsCd=1261&bbsId=&bbsSeq=1288399&dbType=",
-    "teaser": "늘어나는 매물, 돌아오지 않는 매수자",
+    "teaser": "> 늘어나는 매물, 돌아오지 않는 매수자",
     "author": "이영주",
     "topic": "글로벌 자산전략",
-    "id": "gh-28052dcd435da3d2bbfcacff"
+    "id": "gh-28052dcd435da3d2bbfcacff",
+    "ticker": ""
   },
   {
     "id": "mirae-korea-close-20260811",
@@ -462,25 +484,26 @@
     "title": "Global AI Investment Is Forecast to Exceed $1 Trillion in 2026",
     "source": "Goldman Sachs",
     "region": "미국",
-    "category": "인공지능",
+    "category": "리서치",
     "publishedAt": "2026-08-07",
     "url": "https://www.goldmansachs.com/insights/articles/global-investment-is-forecast-to-exceed-1-trillion-in-2026",
-    "teaser": "Goldman Sachs Research estimates global AI investment will exceed $1 trillion in 2026, including $581 billion in the US.",
-    "author": "Goldman Sachs Research",
-    "topic": "AI · 설비투자",
-    "id": "gh-5d46522b49c81f7f28c8b59d"
+    "teaser": "Goldman Sachs Research adjusted widely cited measures of capital expenditure by US hyperscale tech companies to develop a more comprehensive estimate of AI investment around the world.",
+    "author": "Goldman Sachs",
+    "topic": "",
+    "id": "gh-5d46522b49c81f7f28c8b59d",
+    "ticker": ""
   },
   {
     "title": "How Do Geopolitical Alliances Affect Economic Growth?",
     "source": "Goldman Sachs",
     "region": "미국",
-    "category": "매크로",
+    "category": "리서치",
     "publishedAt": "2026-07-30",
     "url": "https://www.goldmansachs.com/insights/articles/how-do-geopolitical-alliances-affect-economic-growth",
-    "teaser": "Goldman Sachs Research estimates that growing geopolitical fragmentation has reduced global GDP over the past decade.",
-    "author": "Goldman Sachs Research",
-    "topic": "지정학 · 성장",
-    "id": "gh-16ce033162db5c0a17654c5d"
+    "teaser": "Geopolitical fragmentation may have substantial and long-term effects on worldwide GDP growth, according to Goldman Sachs Research.",
+    "author": "Goldman Sachs",
+    "topic": "",
+    "id": "gh-16ce033162db5c0a17654c5d",
+    "ticker": ""
   }
 ]
-

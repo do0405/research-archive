@@ -1,6 +1,35 @@
 {
-  "lastCheckedAt": null,
-  "total": 0,
-  "checks": []
+  "lastCheckedAt": "2026-10-12T16:48:09.745Z",
+  "total": 39,
+  "checks": [
+    {
+      "source": "AQR",
+      "status": "ok",
+      "found": 10,
+      "added": 1
+    },
+    {
+      "source": "하나증권",
+      "status": "ok",
+      "found": 10,
+      "added": 0
+    },
+    {
+      "source": "미래에셋증권",
+      "status": "ok",
+      "found": 10,
+      "added": 0
+    },
+    {
+      "source": "Goldman Sachs",
+      "status": "ok",
+      "found": 3,
+      "added": 0
+    },
+    {
+      "source": "J.P. Morgan",
+      "status": "error",
+      "detail": "최근 1년 공개 자료 없음"
+    }
+  ]
 }
-
