@@ -114,7 +114,7 @@ export function parseYuanta(html, now = new Date(), section = 'RB30A') {
     const name = company ? `${company}: ${title}` : title;
     const group = section.startsWith('RB') ? 'RB30' : section;
     const subgroup = section.startsWith('RB') ? section : '';
-    rows.push({ title: name, source: '유안타증권', region: '한국', category: /quant|퀀트|qwer|스크리닝|팩터|factor|계량/i.test(`${name} ${teaser}`) ? '퀀트 리서치' : '리서치', publishedAt, url: `https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?cd006=&cd007=${group}&cd008=${subgroup}&SEQ=${detail[1]}`, teaser, author: '', ticker: '', topic: '투자전략' });
+    rows.push({ title: name, source: '유안타증권', region: '한국', category: /quant|퀀트|qwer|스크리닝|팩터|factor|계량/i.test(`${name} ${teaser}`) ? '퀀트 리서치' : '리서치', publishedAt, url: `https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?cd006=&cd007=${group}&cd008=${subgroup}&SEQ=${detail[1]}`, teaser, author: '', ticker: '', topic: section === 'RE01' ? '기업분석' : section === 'RE02' ? '산업분석' : '투자전략' });
   }
   return rows;
 }
