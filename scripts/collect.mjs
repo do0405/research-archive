@@ -85,6 +85,19 @@ export function parseKoreaInvestment(html, now = new Date()) {
   return rows;
 }
 
+export function parseIbk(html, now = new Date()) {
+  const rows = [];
+  for (const block of html.match(/<tr\s+class="tr_[^"]+">[\s\S]*?<\/tr>/gi) ?? []) {
+    const id = block.match(/enterpriseAnalysisView\('([0-9]+)'\)/);
+    const title = block.match(/<a\s+href="#"\s+onclick="enterpriseAnalysisView\('[0-9]+'\);">([\s\S]*?)<\/a>/i);
+    const date = block.match(/<td class="td_type_day">(\d{4}-\d{2}-\d{2})<\/td>/i);
+    if (!id || !title || !date || !recent(date[1], now)) continue;
+    const name = clean(title[1]);
+    rows.push({ title: name, source: 'IBK투자증권', region: '한국', category: /퀀트|계량|팩터|factor/i.test(name) ? '퀀트 리서치' : '리서치', publishedAt: date[1], url: canonical(`https://www.ibks.com/investment/research/enterpriseAnalysis_view.do?seq=${id[1]}&popup=null`), teaser: '', author: clean(block.match(/<td class="td_type_wrt">([\s\S]*?)<\/td>/i)?.[1]), ticker: '', topic: '' });
+  }
+  return rows;
+}
+
 const meta = (html, name) => { for (const tag of html.match(/<meta\b[^>]*>/gi) ?? []) if (new RegExp(`(?:name|property)=["']${name}["']`, 'i').test(tag)) return clean(tag.match(/content=["']([^"']*)["']/i)?.[1]); return ''; };
 export function parseArticle(html, url, source, now, region = '미국') {
   const title = meta(html, 'og:title') || clean(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1]);
@@ -143,6 +156,17 @@ async function collectSamsung(now) {
   return results;
 }
 
+async function collectIbk(now) {
+  const rows = [];
+  for (let page = 1; page <= 6; page++) {
+    const html = await fetchText(`https://www.ibks.com/investment/research/enterpriseAnalysis_list.do?current_page=${page}`, 'euc-kr');
+    const batch = parseIbk(html, now);
+    if (!batch.length) break;
+    rows.push(...batch);
+  }
+  return rows;
+}
+
 export async function collectAll(now = new Date()) {
   let existing = [];
   try { existing = JSON.parse(await readFile(reportsPath, 'utf8')); } catch { /* First run. */ }
@@ -154,6 +178,7 @@ export async function collectAll(now = new Date()) {
     ['미래에셋증권', async () => parseMirae(await fetchText('https://securities.miraeasset.com/bbs/board/message/list.do?categoryId=1521', 'euc-kr'), now)],
     ['삼성증권', async () => collectSamsung(now)],
     ['한국투자증권', async () => parseKoreaInvestment(await fetchText('https://securities.koreainvestment.com/main/research/Main.jsp'), now)],
+    ['IBK투자증권', async () => collectIbk(now)],
     ['Goldman Sachs', async () => collectArticles('https://www.goldmansachs.com/what-we-do/research', 'Goldman Sachs', /\/insights\/articles\/[a-z0-9-]+/gi, now)],
     ['J.P. Morgan', async () => collectArticles('https://www.jpmorgan.com/insights/research', 'J.P. Morgan', /\/insights\/(?:global-research|research)\/[a-z0-9\/-]+/gi, now)],
     ['Morgan Stanley', async () => collectArticles('https://www.morganstanley.com/what-we-do/research/', 'Morgan Stanley', /\/insights\/articles\/[a-z0-9-]+/gi, now)],
