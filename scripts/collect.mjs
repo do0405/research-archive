@@ -56,10 +56,10 @@ export function parseMirae(html, now = new Date()) {
 }
 
 const meta = (html, name) => { for (const tag of html.match(/<meta\b[^>]*>/gi) ?? []) if (new RegExp(`(?:name|property)=["']${name}["']`, 'i').test(tag)) return clean(tag.match(/content=["']([^"']*)["']/i)?.[1]); return ''; };
-function parseArticle(html, url, source, now) {
+export function parseArticle(html, url, source, now) {
   const title = meta(html, 'og:title') || clean(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1]);
-  const dateText = meta(html, 'article:published_time') || html.match(/"datePublished"\s*:\s*"([^"]+)"/)?.[1] || html.match(/<time[^>]*datetime="([^"]+)"/)?.[1];
-  const date = dateText ? new Date(dateText) : null;
+  const dateText = meta(html, 'article:published_time') || meta(html, 'publishDate') || html.match(/"datePublished"\s*:\s*"([^"]+)"/)?.[1] || html.match(/<time[^>]*datetime="([^"]+)"/)?.[1];
+  const date = dateText ? new Date(/^[A-Za-z]+\s+\d{1,2},?\s+\d{4}$/.test(dateText) ? `${dateText} UTC` : dateText) : null;
   if (!title || !date || Number.isNaN(date.getTime())) return null;
   const publishedAt = date.toISOString().slice(0, 10);
   if (!recent(publishedAt, now)) return null;
