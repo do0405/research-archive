@@ -1,0 +1,40 @@
+name: Refresh public research archive
+
+on:
+  schedule:
+    # Monday 09:17 in Seoul (UTC+9). An off-hour minute reduces GitHub queue congestion.
+    - cron: '17 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-public-research
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check official public listings
+        run: node scripts/collect.mjs
+      - name: Preserve results and check history
+        run: |
+          git config user.name "research-archive-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reports.json data/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public research metadata"
+            git push
+          fi
+      - name: Signal if every source failed
+        run: node scripts/collect.mjs --check-status
+
