@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { mergeReports, parseAqr, parseArticle, parseHana, parseIbk, parseKoreaInvestment, parseMirae, parseSamsung } from '../scripts/collect.mjs';
+import { mergeReports, parseAqr, parseArticle, parseHana, parseIbk, parseKoreaInvestment, parseMirae, parseSamsung, parseYuanta } from '../scripts/collect.mjs';
 
 test('AQR listing yields a dated original article link and public introduction', () => {
   const html = '<div class="search-list-v2__item "><a class="cta--black h2" href="/Insights/Research/White-Papers/Test-Study">Test Study</a><p class="article__date">October 7, 2026</p><p class="article__summary">A public &amp; short introduction.</p><p class="eyebrow article__eyebrow">Factors</p></div>';
@@ -48,6 +48,15 @@ test('IBK public list points to its report detail and recognizes quant titles', 
   assert.equal(rows.length, 1);
   assert.equal(rows[0].category, '퀀트 리서치');
   assert.match(rows[0].url, /enterpriseAnalysis_view\.do\?popup=null&seq=12217/);
+});
+
+test('Yuanta public strategy list links to its accessible detail and marks quant reports', () => {
+  const html = '<tr class="js-moveRS"><td>2026/09/28</td><td class="txtL"><a href="#" cmd-type="view" data-seq="207591" class="ellipsis w">Quant Playbook 10월호<p class="w275 block ellipsis">Part 1. Quant Portfolio- </p></a></td></tr>';
+  const rows = parseYuanta(html, new Date('2026-10-13T00:00:00Z'), 'RB30A');
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].category, '퀀트 리서치');
+  assert.equal(rows[0].teaser, 'Part 1. Quant Portfolio-');
+  assert.match(rows[0].url, /rs_view\.cmd\?cd006=&cd007=RB30&cd008=RB30A&SEQ=207591/);
 });
 
 test('Morgan Stanley and Man Group publication dates are read from their public pages', () => {
