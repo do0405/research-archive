@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { mergeReports, parseAqr, parseHana, parseMirae } from '../scripts/collect.mjs';
+import { mergeReports, parseAqr, parseArticle, parseHana, parseMirae } from '../scripts/collect.mjs';
 
 test('AQR listing yields a dated original article link and public introduction', () => {
   const html = '<div class="search-list-v2__item "><a class="cta--black h2" href="/Insights/Research/White-Papers/Test-Study">Test Study</a><p class="article__date">October 7, 2026</p><p class="article__summary">A public &amp; short introduction.</p><p class="eyebrow article__eyebrow">Factors</p></div>';
@@ -24,6 +24,13 @@ test('Mirae listing uses a view page, avoiding the PDF download notice', () => {
   assert.equal(rows.length, 1);
   assert.match(rows[0].url, /messageId=2343289/);
   assert.equal(rows[0].teaser, '원화와 금리');
+});
+
+test('J.P. Morgan publication date is read from its public metadata', () => {
+  const html = '<meta content="2026 Market Outlook" property="og:title"/><meta name="publishDate" content="July 1, 2026"/><meta name="description" content="A public introduction."/>';
+  const row = parseArticle(html, 'https://www.jpmorgan.com/insights/global-research/outlook/mid-year-outlook', 'J.P. Morgan', new Date('2026-10-13T00:00:00Z'));
+  assert.equal(row.publishedAt, '2026-07-01');
+  assert.equal(row.teaser, 'A public introduction.');
 });
 
 test('archive merge preserves old reports and IDs, deduplicates URL, and adds stable IDs', () => {
