@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { mergeReports, parseAqr, parseArticle, parseHana, parseKoreaInvestment, parseMirae, parseSamsung } from '../scripts/collect.mjs';
+import { mergeReports, parseAqr, parseArticle, parseHana, parseIbk, parseKoreaInvestment, parseMirae, parseSamsung } from '../scripts/collect.mjs';
 
 test('AQR listing yields a dated original article link and public introduction', () => {
   const html = '<div class="search-list-v2__item "><a class="cta--black h2" href="/Insights/Research/White-Papers/Test-Study">Test Study</a><p class="article__date">October 7, 2026</p><p class="article__summary">A public &amp; short introduction.</p><p class="eyebrow article__eyebrow">Factors</p></div>';
@@ -40,6 +40,14 @@ test('Korea Investment public home listing uses an accessible detail URL', () =>
   assert.equal(rows.length, 1);
   assert.match(rows[0].url, /StrategyDetail\.jsp\?id=160091&jkGubun=6/);
   assert.equal(rows[0].teaser, '공개된 소개');
+});
+
+test('IBK public list points to its report detail and recognizes quant titles', () => {
+  const html = '<tr class="tr_m"><td class="td_type_num">7817</td><td class="td_type_sub"><a href="#" onclick="enterpriseAnalysisView(\'12217\');">계량분석 퀀트 전략</a></td><td class="td_type_wrt">리서치본부</td><td class="td_type_day">2026-10-12</td></tr>';
+  const rows = parseIbk(html, new Date('2026-10-13T00:00:00Z'));
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].category, '퀀트 리서치');
+  assert.match(rows[0].url, /enterpriseAnalysis_view\.do\?popup=null&seq=12217/);
 });
 
 test('Morgan Stanley and Man Group publication dates are read from their public pages', () => {
