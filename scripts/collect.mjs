@@ -106,12 +106,15 @@ export function parseYuanta(html, now = new Date(), section = 'RB30A') {
     if (!date || !detail) continue;
     const publishedAt = `${date[1]}-${date[2]}-${date[3]}`;
     if (!recent(publishedAt, now)) continue;
-    const title = clean(detail[2].split(/<p\b/i)[0]);
-    const teaser = clean(detail[2].match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1]).slice(0, 320);
+    const visible = detail[2].replace(/<!--[\s\S]*?-->/g, '');
+    const title = clean(visible.split(/<p\b/i)[0]);
+    const teaser = clean(visible.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1]).slice(0, 320);
     if (!title) continue;
+    const company = clean(block.match(/<a\s+href="#"\s+class="js-jongname"[^>]*>([\s\S]*?)<\/a>/i)?.[1]);
+    const name = company ? `${company}: ${title}` : title;
     const group = section.startsWith('RB') ? 'RB30' : section;
     const subgroup = section.startsWith('RB') ? section : '';
-    rows.push({ title, source: '유안타증권', region: '한국', category: /quant|퀀트|qwer|스크리닝|팩터|factor|계량/i.test(`${title} ${teaser}`) ? '퀀트 리서치' : '리서치', publishedAt, url: `https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?cd006=&cd007=${group}&cd008=${subgroup}&SEQ=${detail[1]}`, teaser, author: '', ticker: '', topic: '투자전략' });
+    rows.push({ title: name, source: '유안타증권', region: '한국', category: /quant|퀀트|qwer|스크리닝|팩터|factor|계량/i.test(`${name} ${teaser}`) ? '퀀트 리서치' : '리서치', publishedAt, url: `https://account.myasset.com/myasset/research/rs_list/rs_view.cmd?cd006=&cd007=${group}&cd008=${subgroup}&SEQ=${detail[1]}`, teaser, author: '', ticker: '', topic: '투자전략' });
   }
   return rows;
 }
