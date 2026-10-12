@@ -57,6 +57,10 @@ test('Yuanta public strategy list links to its accessible detail and marks quant
   assert.equal(rows[0].category, '퀀트 리서치');
   assert.equal(rows[0].teaser, 'Part 1. Quant Portfolio-');
   assert.match(rows[0].url, /rs_view\.cmd\?cd006=&cd007=RB30&cd008=RB30A&SEQ=207591/);
+  const company = '<tr class="js-moveRS"><td>2026/10/12</td><td><a href="#" class="js-jongname" data-jongcode="(079550)">LIG디펜스앤에어로스페이스</a></td><td class="txtL"><a href="#" cmd-type="view" data-seq="207764" class="ellipsis">3Q Pre: 예고된 실적 부진, 시선은 수주로<!--<p>2026/10/12</p>--></a></td></tr>';
+  const companyRow = parseYuanta(company, new Date('2026-10-13T00:00:00Z'), 'RE01')[0];
+  assert.equal(companyRow.title, 'LIG디펜스앤에어로스페이스: 3Q Pre: 예고된 실적 부진, 시선은 수주로');
+  assert.equal(companyRow.teaser, '');
 });
 
 test('Morgan Stanley and Man Group publication dates are read from their public pages', () => {
