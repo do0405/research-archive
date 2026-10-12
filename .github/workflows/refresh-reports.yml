@@ -1,6 +1,12 @@
 name: Refresh public research archive
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-reports.yml'
+      - 'scripts/**'
+      - 'tests/**'
   schedule:
     # Monday 09:17 in Seoul (UTC+9). An off-hour minute reduces GitHub queue congestion.
     - cron: '17 0 * * 1'
